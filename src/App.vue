@@ -8,7 +8,7 @@
         <div class="content">
         内容展示区域 
         </div>
-        <div class="bottom">123</div>
+        <HospitalBottom />
     </div>
 </template>
 <style scoped lang="scss">
@@ -22,10 +22,6 @@
         height: 1200px;
         background-color: rgb(208, 206, 206);
     }
-    .bottom{
-        width: 100%;
-        height: 60px;
-        background-color: aquamarine;
-    }
+
 }
 </style>

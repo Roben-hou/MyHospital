@@ -54,7 +54,7 @@
             }
             p{
                 font-size: 15px;
-                color: #acaaaa;
+                color: #6e6d6d;
             }
         }
     }

@@ -5,10 +5,12 @@ import { createApp } from 'vue'
 //引入根组件App
 import App from './App.vue'
 import HospitalTop from './components/hospital_top/index.vue'
+import HospitalBottom from './components/hospital_bottom/index.vue'
 //创建应用实例
 const app = createApp(App)
 //全局状态
 // 2. 挂载应用
 app.component('HospitalTop', HospitalTop)
+app.component('HospitalBottom', HospitalBottom)
 app.mount('#app')
 
