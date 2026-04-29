@@ -6,8 +6,11 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import HospitalTop from './components/hospital_top/index.vue'
 import HospitalBottom from './components/hospital_bottom/index.vue'
+//引入自定义的路由文件
+import { router } from './router'
 //创建应用实例
 const app = createApp(App)
+app.use(router)
 //全局状态
 // 2. 挂载应用
 app.component('HospitalTop', HospitalTop)

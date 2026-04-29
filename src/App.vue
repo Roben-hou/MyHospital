@@ -6,7 +6,7 @@
     <div class="container">
         <HospitalTop />
         <div class="content">
-        内容展示区域 
+            <router-view></router-view>
         </div>
         <HospitalBottom />
     </div>
@@ -18,9 +18,9 @@
     align-items: center;
     .content{
         margin-top: 90px;
-        width: 1200px;
+        width: 90%;
         height: 1200px;
-        background-color: rgb(208, 206, 206);
+        background-color: rgb(248, 247, 247);
     }
 
 }
