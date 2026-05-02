@@ -20,7 +20,7 @@
         margin-top: 90px;
         width: 90%;
         height: 1200px;
-        background-color: rgb(248, 247, 247);
+        background-color: #fff;
     }
 
 }
