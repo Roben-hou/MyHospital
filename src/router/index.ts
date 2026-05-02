@@ -4,11 +4,11 @@ export const router = createRouter({
     routes: [
         {
             path: '/home',
-            component: () => import('@/pages/home/index.vue')
+            component: () => import('@/pages/home/Home.vue')
         },
         {
             path: '/hospital',
-            component: () => import('@/pages/hospital/indedx.vue')
+            component: () => import('@/pages/hospital/Hospital.vue')
         },
         {
             path: '/',

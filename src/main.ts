@@ -7,8 +7,8 @@ import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
 //引入根组件App
 import App from './App.vue'
-import HospitalTop from './components/hospital_top/index.vue'
-import HospitalBottom from './components/hospital_bottom/index.vue'
+import HospitalTop from './components/hospital_top/HospitalTop.vue'
+import HospitalBottom from './components/hospital_bottom/HospitalBottom.vue'
 //引入自定义的路由文件
 import { router } from './router'
 //创建应用实例

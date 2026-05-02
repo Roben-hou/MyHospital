@@ -30,7 +30,7 @@
         justify-content: space-between;
         align-items: center;
         .left{
-           color: #6e6d6d;
+        color: #6e6d6d;
             font-size: 14px;
         }
         .right{

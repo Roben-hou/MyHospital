@@ -22,6 +22,5 @@
         height: 1200px;
         background-color: #fff;
     }
-
 }
 </style>
