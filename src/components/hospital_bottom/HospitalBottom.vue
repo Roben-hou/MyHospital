@@ -17,26 +17,31 @@
 </script>
 
 <style scoped lang="scss">
-.bottom{
+.bottom {
+    margin-top: 20px;
     width: 100%;
     height: 60px;
     background-color: rgb(228, 235, 233);
     display: flex;
     justify-content: center;
-    .container{
+
+    .container {
         width: 85%;
         height: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        .left{
-        color: #6e6d6d;
-            font-size: 14px;
-        }
-        .right{
+
+        .left {
             color: #6e6d6d;
             font-size: 14px;
-            span{
+        }
+
+        .right {
+            color: #6e6d6d;
+            font-size: 14px;
+
+            span {
                 margin: 0 3px;
             }
         }

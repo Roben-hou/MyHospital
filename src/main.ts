@@ -1,10 +1,13 @@
 //引入清除默认样式
 import '@/style/reset.scss'
+//引入mock接口np
+
 //VUE3提供的方法create方法，可以用来创建应用实例方法
 import { createApp } from 'vue'
 //引入Element Plus组件库
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
+import { zhCn } from 'element-plus/es/locale/index.mjs'
 //引入根组件App
 import App from './App.vue'
 import HospitalTop from './components/hospital_top/HospitalTop.vue'
@@ -15,7 +18,7 @@ import { router } from './router'
 const app = createApp(App)
 app.use(router)
 //全局注册Element Plus组件库
-app.use(ElementPlus)
+app.use(ElementPlus, { locale: zhCn })
 //全局状态
 // 2. 挂载应用
 app.component('HospitalTop', HospitalTop)

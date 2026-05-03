@@ -1,10 +1,12 @@
-<template >
-    <div>
-        <el-carousel height="350px" :autoplay="true" :interval="3000">
-            <el-carousel-item v-for="item in imgline" :key="item.id">
-                <img :src="item.img" alt="banner" style="width: 100%; height: 350px">
-            </el-carousel-item>
-        </el-carousel>
+<template>
+    <div class="container">
+        <div class="carousel">
+            <el-carousel height="350px" :autoplay="true" :interval="3000">
+                <el-carousel-item v-for="item in imgline" :key="item.id">
+                    <img :src="item.img" alt="banner" style="width: 100%; height: 350px">
+                </el-carousel-item>
+            </el-carousel>
+        </div>
     </div>
 </template>
 <script setup lang="ts">
@@ -28,5 +30,12 @@ let imgline = [
 ]
 </script>
 <style lang="scss">
-    
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel {
+    width: 80%;
+}
 </style>

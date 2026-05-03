@@ -3,9 +3,14 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vite.dev/config/
 import path from 'path'
-
+import { viteMockServe } from 'vite-plugin-mock'
 export default defineConfig({
-  plugins: [vue()],
+  plugins: [vue(),
+  viteMockServe({
+    mockPath: 'mock',
+    enable: true
+  })
+  ],
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src')

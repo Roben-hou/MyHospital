@@ -12,14 +12,15 @@
     </div>
 </template>
 <style scoped lang="scss">
-.container{
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    .content{
+
+    .content {
         margin-top: 90px;
         width: 90%;
-        height: 1200px;
+        min-height: 1200px;
         background-color: #fff;
     }
 }
